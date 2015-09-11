@@ -28,9 +28,30 @@ class test_bots2UITests: XCTestCase {
         super.tearDown()
     }
     
+    
+
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        let masterNavigationBar = app.navigationBars["Master"]
+        let addButton = masterNavigationBar.buttons["Add"]
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        masterNavigationBar.buttons["Edit"].tap()
+        
+        let tablesQuery = app.tables
+        let table = tablesQuery.element
+        let cell = table.cells.elementBoundByIndex(2)
+        XCTAssertTrue(cell.exists)
+        let cellButton = cell.buttons.elementBoundByIndex(0)
+        cellButton.tap()
+        tablesQuery.buttons["Delete"].tap()
+        let count = table.cells.count
+        XCTAssertTrue(count == 2)
+        
     }
     
 }
