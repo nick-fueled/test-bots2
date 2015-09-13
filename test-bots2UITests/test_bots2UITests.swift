@@ -28,7 +28,9 @@ class test_bots2UITests: XCTestCase {
         super.tearDown()
     }
     
-    
+    func testSimeple() {
+        
+    }
 
     func testExample() {
         // Use recording to get started writing UI tests.
