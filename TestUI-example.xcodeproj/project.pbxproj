@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0100DFA31BA28AEF001034FE /* Build configuration list for PBXProject "test-bots2" */;
+			buildConfigurationList = 0100DFA31BA28AEF001034FE /* Build configuration list for PBXProject "TestUI-example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -403,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "test-bots2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NM.test-bots2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "test-bots2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NM.test-bots2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -471,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0100DFA31BA28AEF001034FE /* Build configuration list for PBXProject "test-bots2" */ = {
+		0100DFA31BA28AEF001034FE /* Build configuration list for PBXProject "TestUI-example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0100DFD01BA28AF0001034FE /* Debug */,
@@ -487,6 +489,7 @@
 				0100DFD41BA28AF0001034FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0100DFD51BA28AF0001034FE /* Build configuration list for PBXNativeTarget "test-bots2Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +498,7 @@
 				0100DFD71BA28AF0001034FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0100DFD81BA28AF0001034FE /* Build configuration list for PBXNativeTarget "test-bots2UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +507,7 @@
 				0100DFDA1BA28AF0001034FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

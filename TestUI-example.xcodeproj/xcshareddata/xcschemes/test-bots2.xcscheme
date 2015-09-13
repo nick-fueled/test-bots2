@@ -17,7 +17,7 @@
                BlueprintIdentifier = "0100DFA71BA28AEF001034FE"
                BuildableName = "test-bots2.app"
                BlueprintName = "test-bots2"
-               ReferencedContainer = "container:test-bots2.xcodeproj">
+               ReferencedContainer = "container:TestUI-example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "0100DFBD1BA28AF0001034FE"
                BuildableName = "test-bots2Tests.xctest"
                BlueprintName = "test-bots2Tests"
-               ReferencedContainer = "container:test-bots2.xcodeproj">
+               ReferencedContainer = "container:TestUI-example.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "0100DFC81BA28AF0001034FE"
                BuildableName = "test-bots2UITests.xctest"
                BlueprintName = "test-bots2UITests"
-               ReferencedContainer = "container:test-bots2.xcodeproj">
+               ReferencedContainer = "container:TestUI-example.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "0100DFA71BA28AEF001034FE"
             BuildableName = "test-bots2.app"
             BlueprintName = "test-bots2"
-            ReferencedContainer = "container:test-bots2.xcodeproj">
+            ReferencedContainer = "container:TestUI-example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "0100DFA71BA28AEF001034FE"
             BuildableName = "test-bots2.app"
             BlueprintName = "test-bots2"
-            ReferencedContainer = "container:test-bots2.xcodeproj">
+            ReferencedContainer = "container:TestUI-example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "0100DFA71BA28AEF001034FE"
             BuildableName = "test-bots2.app"
             BlueprintName = "test-bots2"
-            ReferencedContainer = "container:test-bots2.xcodeproj">
+            ReferencedContainer = "container:TestUI-example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
