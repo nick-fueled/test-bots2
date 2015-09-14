@@ -34,19 +34,17 @@ class test_bots2UITests: XCTestCase {
         super.tearDown()
     }
     
-    func runIntro() {
+    func testRunIntro() {
 
-        
-        let app = XCUIApplication()
+        let userTextField = app.textFields["User Name"]
+        userTextField.tap()
         app.textFields["User Name"].typeText("Hello")
-        app.secureTextFields["Password"].typeText("password")
-
         
-        let app = XCUIApplication()
+        let passwordSecureTextField = XCUIApplication().secureTextFields["Password"]
+        passwordSecureTextField.tap()
+        passwordSecureTextField.typeText("password")
+
         app.buttons["Launch App"].tap()
-        app.navigationBars["Master"].tap()
-
-        
         
     }
 
@@ -70,6 +68,33 @@ class test_bots2UITests: XCTestCase {
         tablesQuery.buttons["Delete"].tap()
         let count = table.cells.count
         XCTAssertTrue(count == 2)
+        
+    }
+    
+    func testQueryScene() {
+        
+        let labelByTextQuery = app.staticTexts["Label"]
+        XCTAssertTrue(labelByTextQuery.exists)
+        print(labelByTextQuery.value)
+
+        //let labelByAccessibilityIdentifier = app.staticTexts["accessibilityIdentifier"]
+        //let labelByAccessibilityLabel = app.staticTexts["accessibilityLabel"]
+        
+        //print("-->")
+        //XCTAssertTrue(labelByAccessibilityIdentifier.exists)
+        //XCTAssertTrue(labelByAccessibilityLabel.exists)
+        
+        let mainButton = app.buttons["Button"]
+        mainButton.tap()
+ 
+        XCTAssertEqual(labelByTextQuery.exists,false)
+        //print("-->")
+        //print(labelByTextQuery.value)
+        //XCTAssertTrue(labelByAccessibilityIdentifier.exists)
+        //XCTAssertTrue(labelByAccessibilityLabel.exists)
+        
+        let newLabelText = app.staticTexts["one"]
+        XCTAssertTrue(newLabelText.exists)
         
     }
     

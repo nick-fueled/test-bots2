@@ -17,15 +17,15 @@
                BlueprintIdentifier = "0100DFA71BA28AEF001034FE"
                BuildableName = "test-bots2.app"
                BlueprintName = "test-bots2"
-               ReferencedContainer = "container:TestUI-example.xcodeproj">
+               ReferencedContainer = "container:UITesting-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "0100DFBD1BA28AF0001034FE"
                BuildableName = "test-bots2Tests.xctest"
                BlueprintName = "test-bots2Tests"
-               ReferencedContainer = "container:TestUI-example.xcodeproj">
+               ReferencedContainer = "container:UITesting-Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,8 +45,16 @@
                BlueprintIdentifier = "0100DFC81BA28AF0001034FE"
                BuildableName = "test-bots2UITests.xctest"
                BlueprintName = "test-bots2UITests"
-               ReferencedContainer = "container:TestUI-example.xcodeproj">
+               ReferencedContainer = "container:UITesting-Example.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "test_bots2UITests/testExample()">
+               </Test>
+               <Test
+                  Identifier = "test_bots2UITests/testRunIntro()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
@@ -55,7 +63,7 @@
             BlueprintIdentifier = "0100DFA71BA28AEF001034FE"
             BuildableName = "test-bots2.app"
             BlueprintName = "test-bots2"
-            ReferencedContainer = "container:TestUI-example.xcodeproj">
+            ReferencedContainer = "container:UITesting-Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +86,7 @@
             BlueprintIdentifier = "0100DFA71BA28AEF001034FE"
             BuildableName = "test-bots2.app"
             BlueprintName = "test-bots2"
-            ReferencedContainer = "container:TestUI-example.xcodeproj">
+            ReferencedContainer = "container:UITesting-Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +105,7 @@
             BlueprintIdentifier = "0100DFA71BA28AEF001034FE"
             BuildableName = "test-bots2.app"
             BlueprintName = "test-bots2"
-            ReferencedContainer = "container:TestUI-example.xcodeproj">
+            ReferencedContainer = "container:UITesting-Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
